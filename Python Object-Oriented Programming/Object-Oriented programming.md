@@ -1,4 +1,4 @@
-Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods).
+Object-Oriented Programming (OOPs) is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods).
 
 Here are the key concepts of OOP:
 
@@ -33,7 +33,7 @@ Example :
 class Car:
     # Constructor method to initialize the attributes of the class
     def __init__(self, brand, model, year):
-        self.brand = brand
+        self.brand = brand #attributes
         self.model = model
         self.year = year
     
